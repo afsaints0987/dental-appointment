@@ -126,6 +126,7 @@ const Contact = () => {
 
 const Home = () => {
   return (
+    <>
     <Layout>
       <div className="d-flex justify-content-between pt-4 align-middle">
         <a href="#" className="montserrat-bold text-success">
@@ -137,8 +138,9 @@ const Home = () => {
       <About />
       <Services />
       <Contact />
-      <Footer />
     </Layout>
+    <Footer />
+    </>
   );
 };
 

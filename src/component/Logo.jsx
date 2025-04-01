@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Logo = () => {
-  return <div className="montserrat-bold text-success">Dental24x7</div>;
+const Logo = ({className}) => {
+  return <div className={`montserrat-bold ${className}`}>Dental24x7</div>;
 }
 
 export default Logo

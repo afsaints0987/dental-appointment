@@ -5,7 +5,7 @@ import Logo from "../Logo";
 const Login = ({ title }) => {
   return (
     <div className="d-flex justify-content-center flex-column align-items-center text-center mx-auto vh-100">
-      <Logo/>
+      <Logo className={`text-success`}/>
       <h4>{title}</h4>
       <form className="mt-2">
         <div className="form-group mb-3">
